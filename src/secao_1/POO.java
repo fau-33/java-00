@@ -61,5 +61,20 @@ public class POO {
 
     System.out.println(camisa.getPreco());
 
+    // 7 - Método dentro de metodo
+    System.out.println(camisa.exibirInfo());
+
+    camisa.aplicarDesconto(10);
+    camisa.aplicarDesconto(0);
+
+    // 8 - Construtores
+    Livro meuLivro = new Livro("O Senhor dos Aneis", "JRR Tolkien", 49.90);
+
+    meuLivro.exibirInfo();
+
+    Livro outroLivro = new Livro();
+
+    outroLivro.exibirInfo();
+
   }
 }
